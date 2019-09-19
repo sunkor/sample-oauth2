@@ -9,8 +9,8 @@ const SpotifyStrategy = require('passport-spotify').Strategy;
 const app = express();
 
 //Ask passport to use google OAuth 2.0
-//google client id - 831807137507-lbjq9ft5hrdh4tsj03jgtocilbqqvasb.apps.googleusercontent.com
-//google client secret - 1Lva9ewLbug1EGeEykZFUJ9J
+//google client id
+//google client secret
 passport.use(new GoogleStrategy({
     clientID: keys.googleClientId,
     clientSecret: keys.googleClientSecret,
